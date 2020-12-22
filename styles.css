@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center
+}
+
+.flex-container {
+    width: 490px;
+    height: 490px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: auto;
+}
+
+.flex-item {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 1em;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #9797f1;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+}
+
+body {
+    background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+    background-color: #dbd9d9;
+}
